@@ -87,3 +87,20 @@ button{
     box-sizing: content-box;
     cursor: pointer;
 }
+
+.erros{
+    margin: 10px 0;
+    list-style: none;
+    padding: 5px 10px;
+    background-color: #faa;
+    color: #500;
+    font-size: 13px;
+}
+
+.invisible{
+    display: none;
+}
+
+.bold{
+    font-weight: 800;
+}

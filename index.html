@@ -28,17 +28,12 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>Paulo</td>
-                        <td>20</td>
-                        <td>1.87</td>
-                        <td>18</td>
-                        <td>22</td>
-                    </tr>
                 </tbody>
             </table>
-            <button>Buscar Pacientes</button>
+            <button id="btn_Buscar">Buscar Pacientes</button>
             <h1 class="std_title">Adicionar novo paciente</h1>
+            <ul class="erros invisible">
+            </ul>
             <form>
                 <div class="grupo_input flex3">
                     <label for='nome'>Nome:</label>
@@ -59,6 +54,8 @@
                 <button id="btn_addPaciente">Adicionar</button>
             </form>
         </main>
-        <script src="js/main.js"></script>
+        <script src="js/addPaciente.js"></script>
+        <script src="js/filtroPaciente.js"></script>
+        <script src="js/buscaPaciente.js"></script>
     </body>
 </html>
