@@ -1,0 +1,64 @@
+</DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Aparecida Nutrição</title>
+        <link rel="stylesheet" href="css/main.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1 class="page_title">Aparecida Nutricionista</h1>
+            </div>
+        </header>
+        <main class="container">
+            <h1 class= "std_title">Meus Pacientes</h1>
+            <div class="grupo_input" style="width:300px;">
+                <label for='filtro'>Filtrar:</label>
+                <input type="text" name="filtro" placeholder="Digite o nome do paciente..."/>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Nome</td>
+                        <td>Peso(kg)</td>
+                        <td>Altura(m)</td>
+                        <td>Gordura Corporal(%)</td>
+                        <td>IMC</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Paulo</td>
+                        <td>20</td>
+                        <td>1.87</td>
+                        <td>18</td>
+                        <td>22</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button>Buscar Pacientes</button>
+            <h1 class="std_title">Adicionar novo paciente</h1>
+            <form>
+                <div class="grupo_input flex3">
+                    <label for='nome'>Nome:</label>
+                    <input type="text" name="nome" placeholder="digite o nome do seu paciente">
+                </div>
+                <div class="grupo_input flex1">
+                    <label for='peso'>Peso:</label>
+                    <input type="text" name="peso" placeholder="digite o nome do seu paciente">
+                </div>
+                <div class="grupo_input flex1">
+                    <label for='altura'>Altura:</label>
+                    <input type="text" name="altura" placeholder="digite o nome do seu paciente">
+                </div> 
+                <div class="grupo_input flex1">
+                    <label for='gordura'>% de Gordura</label>
+                    <input type="text" name="gordura" placeholder="digite o nome do seu paciente">
+                </div>
+                <button id="btn_addPaciente">Adicionar</button>
+            </form>
+        </main>
+        <script src="js/main.js"></script>
+    </body>
+</html>
